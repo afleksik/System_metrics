@@ -18,7 +18,7 @@ This project is designed to create a Systemd service that periodically collects 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/afleksik/bash
+   git clone https://github.com/afleksik/System_metrics
    cd bash
    ```
 
