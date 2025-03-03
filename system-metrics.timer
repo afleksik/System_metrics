@@ -1,0 +1,10 @@
+[Unit]
+Description=Run system-metrics.service every 10 seconds
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=10s
+Unit=system-metrics.service
+
+[Install]
+WantedBy=timers.target

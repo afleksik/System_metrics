@@ -1,0 +1,12 @@
+[Unit]
+Description=System Metrics Logger
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/system-metrics-to-syslog.sh
+Restart=on-failure
+SyslogIdentifier=system-metrics
+
+[Install]
+WantedBy=multi-user.target
